@@ -1,0 +1,19 @@
+package ral_dut_package;
+  `include "uvm_macros.svh"
+  import uvm_pkg::*;
+  `include "../uvm_seq_item/ral_dut_sequence_item.sv"
+  `include "../uvm_reg/data_reg1.sv"
+  `include "../uvm_reg/data_reg2.sv"
+  `include "../uvm_reg/data_reg3.sv"
+  `include "../uvm_reg/data_reg4.sv"
+  `include "../uvm_reg_block/register_block.sv"
+  `include "../adapter/reg2bus_adapter.sv"
+  `include "../uvm_seq/ral_dut_sequence.sv"
+  `include "../uvm_agent/ral_dut_sequencer.sv"
+  `include "../uvm_agent/ral_dut_driver.sv"
+  `include "../uvm_agent/ral_dut_monitor.sv"
+  `include "../uvm_agent/ral_dut_agent.sv"
+  `include "../uvm_env/ral_dut_environment.sv"
+  `include "../uvm_test/ral_dut_test.sv"
+
+endpackage: ral_dut_package
